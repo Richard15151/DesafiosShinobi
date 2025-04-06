@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafios Shinobi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <h1>Instinto do Sharingan</h1>
+        <img src="/img/logovila.png" alt="">
+    </div>
+    <div class="content">
+        <div class="input">
+            <h1>Escolha:</h1>
+            <p>Em missão secreta, você deve retornar à Vila da Folha antes que a Akatsuki o encontre. Três rotas surgem a cada rodada — apenas uma é segura. Confie no seu instinto e avance, pois um único erro pode levar à captura.</p>
+            <br>
+            <p></p>
+            <div class="botoes-jokenpo">
+              <button class="botao" onclick="jogar(1)"> Caminho 1</button>
+              <button class="botao" onclick="jogar(2)"> Caminho 2</button>
+              <button class="botao" onclick="jogar(3)"> Caminho 3</button>
+            </div>
+        </div>
+        <div class="sobre">
+            <h1>Resultado:</h1>
+            <div class="prompt">
+                <p id="res"></p>
+            </div>
+            <div class="rodape">
+              <div id="moedas"></div>
+              <button class="botao3" id="btnReiniciar" onclick="limpar()" style="display: none">Jogar Novamente</button>
+              <a class="botao2"  href="/index.html">Voltar🌌</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/script/moedas.js"></script>
+<script>
+    atualizarExibicaoMoedas();
+</script>
+<script src="script.js"></script>
+</body>
+</html>

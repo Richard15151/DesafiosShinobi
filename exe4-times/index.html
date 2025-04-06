@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafios Shinobi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <h1>Guerra Ninja</h1>
+        <img src="/img/logovila.png" alt="">
+    </div>
+    <div class="content">
+        <div class="input">
+            <h1>Monte seu time:</h1>
+            <p>Escolha três shinobis e enfrente um esquadrão inimigo em uma batalha. Os poderes são sorteados a cada rodada. Escolha bem... a vitória está nas suas mãos!</p>
+            <div class="forms">
+              <label for="personagem1">Ninja 1:</label>
+              <input type="text" name="personagem1" id="personagem1">
+              <br>
+              <label for="personagem2">Ninja 2:</label>
+              <input type="text" name="personagem2" id="personagem2">
+              <br>
+              <label for="personagem3">Ninja 3:</label>
+              <input type="text" name="personagem3" id="personagem3">
+              <button class="botao" onclick="criartime()">Criar time e lutar!</button>
+            </div>
+        </div>
+        <div class="sobre">
+            <h1>Resultado:</h1>
+            <div class="prompt">
+              <div id="resultados" style="display: none;">
+                <h4>Seu Time:</h4>
+                <p id="resultadoTime"></p>
+                <p id="resultadoForcaTime"></p>
+        
+                <h4>Time Adversário (Vilões):</h4>
+                <p id="resultadoViloes"></p>
+                <p id="resultadoForcaViloes"></p>
+        
+                <h4>Resultado da Batalha:</h4>
+                <p id="resultadoFinal"></p>
+              </div>
+            </div>
+            <div class="rodape">
+              <div id="moedas"></div>
+              <button class="botao3" id="btnReiniciar" onclick="limpar()" style="display: none">Jogar Novamente</button>
+              <a class="botao2"  href="/index.html">Voltar🌌</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/script/moedas.js"></script>
+<script>
+    atualizarExibicaoMoedas();
+</script>
+<script src="script.js"></script>
+</body>
+</html>

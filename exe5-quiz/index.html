@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafios Shinobi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>Teste de Konoha</h1>
+        <img src="/img/logovila.png" alt="" />
+      </div>
+      <div class="explicacao">
+        <p>
+          Chegou a hora do Teste de Konoha! Assim como na Academia Ninja, você
+          também precisa provar que tem o que é preciso para se tornar um
+          verdadeiro shinobi. Prepare-se para responder perguntas sobre o mundo
+          de Naruto e mostrar todo o seu conhecimento ninja!
+        </p>
+      </div>
+      <div class="conteudo">
+        <div class="caixapergunta">
+          <span class="pergunta"></span>
+          <span class="progresso"></span>
+        </div>
+        <div class="content">
+          <div class="respostas"></div>
+          <div class="sobre">
+            <div class="prompt">
+              <span id="feedback-mensagem"></span>
+              <span id="resultado-final"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rodape">
+        <div id="moedas">0 🪙</div>
+        <a class="botao2"  href="/index.html">Voltar🌌</a>
+      </div>
+    </div>
+    <script src="/script/moedas.js"></script>
+    <script>
+      atualizarExibicaoMoedas();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

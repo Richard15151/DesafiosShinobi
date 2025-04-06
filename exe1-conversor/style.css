@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+@font-face {
+  font-family: 'NinjaNaruto';
+  src: url('/njnaruto.ttf') format('truetype');
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/img/fundonarutoarrumado2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:end;
+  align-items:center;
+}
+
+.container{
+  height: 90%;
+  width: 60%;
+  margin-right:1%;
+  background-color: #F0EBDF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 8px #F66C2D;
+}
+.logo{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1{
+  font-family:'NinjaNaruto';
+  color: #F66C2D;
+  font-size: 40px;
+}
+.logo img{
+  height: 60px;
+  width: 50px;
+}
+.content{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 80%;
+}
+.input{
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.input h1{
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+.botao{
+  font-family: "Poppins", sans-serif;
+  background-color: #F66C2D;
+  height: 45px;
+  width: 200px;
+  border: none;
+  color: #faf9f6;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.botao:hover {
+  background-color: #F65A1A;  
+}
+.sobre{
+  height: 100%;
+  width: 55%;
+  display: flex;             
+  flex-direction: column;     
+  justify-content: center;    
+  margin-right: 3%;
+  justify-content: space-between;
+}
+.prompt{
+  height: 63%;
+  width: 86%;
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: #e0f2f1;
+  border: 2px solid #F65A1A;;
+  border-radius: 5px; 
+  padding: 10px;
+  display: flex;        
+  align-items: center;  
+  justify-content: center; 
+}
+.sobre h1{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+.sobre h3{
+  text-align: justify; 
+  text-align: right;
+  margin-top: 10px;
+}
+.sobre p {
+  text-align: justify; 
+  text-align: left;
+}
+#res{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#res img{
+  height: 180px;
+  width: 220px;
+}
+.rodape{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.botao2{
+  font-family: "Poppins", sans-serif;
+  background-color: #F66C2D;
+  height: 45px;
+  width: 90px;
+  border: none;
+  color: #faf9f6;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao3{
+  font-family: "Poppins", sans-serif;
+  background-color: #F66C2D;
+  height: 45px;
+  width: 150px;
+  border: none;
+  color: #faf9f6;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resultados{
+  font-size: 16px;
+}

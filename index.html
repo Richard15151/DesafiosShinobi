@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Shinobi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Desafios Shinobi</h1>
+            <img src="/img/logovila.png" alt="">
+        </div>
+        <div class="content">
+            <div class="jogos">
+                <h1>Desafios:</h1>
+                <a href="exe2-jokenpo/index.html" class="botao">Jokenpo Estilo Ninja 🐱‍👤</a>
+                <br>
+                <a href="exe3-jogovidro/index.html" class="botao">Instinto do Sharingan 👁</a>
+                <br>
+                <a href="exe4-times/index.html" class="botao">Guerra Ninja ⚔</a>
+                <br>
+                <a href="exe5-quiz/index.html" class="botao">Teste de Konoha 🧾</a>
+                <br>
+                <a href="exe1-conversor/index.html" class="botao">Troca ninja 💸</a>
+            </div>
+            <div class="sobre">
+                <h1>Sobre:</h1>
+                <div class="prompt">
+                    <p>🌀 Desafios Shinobi é uma jornada interativa inspirada no universo de Naruto, onde você testa suas habilidades em mini jogos temáticos.<br> Cada desafio representa uma etapa do caminho ninja, como batalhas estratégicas, testes de lógica e sabedoria.<br> Ao vencer, você ganha moedas que podem ser acumuladas e trocadas na Troca Ninja. Mostre que você tem o que é preciso para se tornar um verdadeiro shinobi!</p>
+                </div>
+                <div id="moedas">0 🪙</div>
+            </div>
+        </div>
+    </div>
+    <script src="script/moedas.js"></script>
+    <script>
+        atualizarExibicaoMoedas();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
