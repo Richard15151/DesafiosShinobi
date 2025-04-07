@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'NinjaNaruto';
-    src: url('/njnaruto.ttf') format('truetype');
+    src: url('njnaruto.ttf') format('truetype');
 }
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url('/img/fundonarutoarrumado2.png');
+    background-image: url('img/fundonarutoarrumado2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
