@@ -7,11 +7,11 @@ function converter(){
     let moedas = getMoedas()
     console.log(moedas)
 
-    let resultadosReais = moedas * 0.1
+    let resultadosReais = (moedas * 0.1).toFixed(2)
     console.log(resultadosreais)
-    let resultadosDolares = moedas * 0.01
+    let resultadosDolares = (moedas * 0.01).toFixed(2)
     console.log(resultadosdolares)
-    let resultadosYenes = moedas * 0.5
+    let resultadosYenes = (moedas * 0.5).toFixed(2)
     console.log(resultadosyenes)
 
     resultados.style.display = 'block'
