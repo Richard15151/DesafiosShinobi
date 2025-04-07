@@ -8,7 +8,6 @@ Desafios Shinobi é um conjunto de mini-jogos interativos inspirados no universo
 ## Índice
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias](#tecnologias-utilizadas)
-* [APIs](#apis-utilizadas)
 * [Deploy](#deploy)
 * [Autor](#autor)
 * [Licença](#licença)
