@@ -15,8 +15,8 @@ function converter(){
     console.log(resultadosyenes)
 
     resultados.style.display = 'block'
-    resultadosreais.innerHTML = `Suas moedas equivalem a R$${resultadosReais.toFixed(2)}`
-    resultadosdolares.innerHTML = `Suas moedas equivalem a $${resultadosDolares.toFixed(2)}`
-    resultadosyenes.innerHTML = `Suas moedas equivalem a ¥${resultadosYenes.toFixed(2)}`
+    resultadosreais.innerHTML = `Suas moedas equivalem a R$${resultadosReais}`
+    resultadosdolares.innerHTML = `Suas moedas equivalem a $${resultadosDolares}`
+    resultadosyenes.innerHTML = `Suas moedas equivalem a ¥${resultadosYenes}`
 }
 
